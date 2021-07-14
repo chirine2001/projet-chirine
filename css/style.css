@@ -16,8 +16,6 @@ h1, h2{
 
 ::-webkit-scrollbar-thumb {
     background-color: rgb(92, 100, 209);
-
-    /* box-shadow: 0 -100vh 0 100vh #f39; */
 }
 
 #carouselExampleCaptions {
@@ -48,7 +46,6 @@ h1, h2{
     /* block size est utile pour le remplacer dans le html, à la place des margin et du rétrécissement du bloc */
 }
 
-
 .picture {
     margin: auto;
 }
@@ -64,16 +61,7 @@ h1, h2{
     border: solid 1px rgb(0, 0, 0);
 }
 
-/* .onepieceban {
-    margin-left: 30%;
-    height:50%;
-    width:60vh;
-    margin-top:70px;
-} */
 .responsive{
-    /* width: 100%;
-    max-width:60vh;
-    height: auto; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -86,9 +74,15 @@ h1, h2{
     height:5%;
     width:50%;
 }
+.navbar-brand{
+  width:30%;
+}
+.navbar{
+    height:100px;
+}
 .navbar-collapse{
-    /* position: relative; */
-    height:40px;
+    position: relative;
+    height:20px;
     margin:20px;
     font-weight: 700;
 }
@@ -175,7 +169,6 @@ a:active {color:#FF0000;}
 .card{
     margin: 10%;
 }
-
 /* CONTACT (code pas bon, problème de responsive)*/
 .mb-3{
     margin-left:42%;
@@ -198,5 +191,6 @@ a:active {color:#FF0000;}
   }
 
 .dib{
-    margin:200;
+    margin: 100px;
+    text-align: center;
 }
